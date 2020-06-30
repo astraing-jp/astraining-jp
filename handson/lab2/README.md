@@ -1,4 +1,4 @@
-# Azure Sphere + Azure IoT Central で 可視化 / ルール設定
+# Azure Sphere + Azure IoT Central で 可視化 / ルール設定 (lab2)
 
 ## 想定 : 40分
 
