@@ -264,9 +264,26 @@ Azure Sphere デバイス と デバイステンプレートを紐付け、可�
 
 Azure Sphere と Azure IoT Central によるテレメトリー可視化とルール設定の基本的な体験が完了しました  
 
-## EXTRA : az cli で Azure IoT Central をモニタリング
+## EXTRA : Azure CLI で Azure IoT Central をモニタリング
 
-開発中、Azure Sphere デバイスから Azure IoT Central にテレメトリーを送信しているように見える一方でダッシュボードに反映されず、で IoT Central 側をモニタリングしたい場合があります  
-その際は以下の手順にて行うこと可能です  
+開発中、Azure Sphere デバイスから Azure IoT Central にテレメトリーを送信しているように見える一方で、Azure IoT Central のダッシュボードに反映されず、で クラウド側をモニタリングしたい場合があります  
 
+その際は以下の手順にてモニタリングが可能です  
+
+0. [Azure CLI](https://docs.microsoft.com/ja-jp/cli/azure/install-azure-cli?view=azure-cli-latest) をインストール
+
+1. Azure CLI に Azure IoT 拡張機能をインストール  
+`az extension add --name azure-iot`
+
+1. "Application ID" を IoT Central アプリで確認 (管理 > お客様のアプリケーション) 
+
+    ![image](img/lab2-s8-1.png)
+
+1. Azure CLI でモニタリングを開始  
+`az iot central app monitor-events --app-id (Application ID)`
+
+    > [!TIP]    
+    > 初回起動時に uamqp のアップデートが求められる場合があります
+
+    ![image](img/lab2-s8-2.png)
 
