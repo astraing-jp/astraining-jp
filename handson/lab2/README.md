@@ -8,6 +8,9 @@ Azure Sphere と Azure IoT Central でテレメトリーの可視化によるイ
 ## 最初に
 
 このハンズオンでは、以下のデバイス、環境が必要です:
+Git 環境の Clone については以下を別途ご覧ください  
+
+[lab2 のデータ取得 (git clone)](./lab2.md)
 
 ### デバイス
 
@@ -136,6 +139,12 @@ Azure Sphere のデバイスが自動的にアプリケーションに登録さ�
     ![image](img/lab2-s4-4.png)
 
 1. "Azure Sphere Developer Command Prompt" を開き、"Samples\AzureIoT\Tools\win-x64" に移動
+
+    > [!TIP]  
+    > lab の git を "c:\Git" にクローンいただいた場合、上記フォルダは  
+    > `C:\Git\astraining-jp\handson\lab2\code\Samples\AzureIoT\Tools\win-x64`  
+    > になります  
+
 1. **ShowIoTCentralConfig.exe** を実行し、画面の指示に従って項目を入力
 
     ![image](img/lab2-s4-5.png)
@@ -163,6 +172,11 @@ Azure Sphere のデバイスが自動的にアプリケーションに登録さ�
     ![image](img/lab2-s5-1.png)
 
 1. "ファイル" > "開く" > "CMake" をクリック、"Samples\AzureIoT" の "CMakeLists.txt" をクリックして **開く (O)** をクリック
+
+    > [!TIP]  
+    > lab の git を "c:\Git" にクローンいただいた場合、上記フォルダは  
+    > `C:\Git\astraining-jp\handson\lab2\code\Samples\AzureIoT`  
+    > になります  
 
     ![image](img/lab2-s5-2.png)
 

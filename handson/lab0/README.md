@@ -126,3 +126,5 @@ Visual Studio 2019 の Azure Sphere 開発環境を準備します
 以上で ハンズオン環境準備は完了となります  
 続いて Azure Sphere デバイス側の設定 (紐付け) 等の作業に移ります  
 
+[Azure Sphere デバイス側の設定 (紐付け) ](https://docs.microsoft.com/ja-jp/azure-sphere/install/claim-device)
+
